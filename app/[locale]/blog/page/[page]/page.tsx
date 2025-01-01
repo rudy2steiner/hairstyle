@@ -5,8 +5,8 @@ import { notFound } from 'next/navigation';
 import { unstable_setRequestLocale } from 'next-intl/server';
 
 export const metadata: Metadata = {
-  title: 'Blog | PhotoMaker',
-  description: 'Latest updates, tutorials, and news about PhotoMaker AI',
+  title: 'Blog | AI Hairstyle',
+  description: 'Change your hairstyle with ai',
 };
 
 interface Props {

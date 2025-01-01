@@ -24,7 +24,7 @@ export function Hero() {
           </div>
           <div className="relative w-full h-[500px]">
             <img
-              src="/rf.gif"
+              src="/demo/hairstyle.jpg"
               alt="PhotoMaker AI Transformation"
               className="w-full h-full object-contain rounded-lg shadow-xl"
             />

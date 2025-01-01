@@ -57,40 +57,13 @@ export function PhotoMaker() {
   };
 
   return (
-    <div id="photo-maker" className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-      <Card className="p-6">
-        <form onSubmit={handleSubmit} className="space-y-6">
-          <UploadArea files={files} onFilesChange={setFiles} />
-          
-          <GenerationOptions
-            options={options}
-            onChange={setOptions}
-          />
-
-          <div className="space-y-2">
-            <Button
-              type="submit"
-              className="w-full"
-              disabled={files.length === 0 || isGenerating}
-            >
-              {t('common.generate')}
-            </Button>
-            
-            {isGenerating && (
-              <LoadingIndicator 
-                isLoading={isGenerating}
-                label={t('common.loading')}
-                startTime={startTime}
-                className="justify-center text-muted-foreground"
-              />
-            )}
-          </div>
-        </form>
-      </Card>
-
-      <div className="lg:sticky lg:top-6">
-        <GeneratedImages images={generatedImages.map(url => ({ url }))} />
-      </div>
+    <div id="photo-maker" className="mx-auto" >
+        <iframe
+               src="https://airi-institute-hairfastgan.hf.space"
+               frameborder="0"
+               width="1024"
+               height="1400"
+         ></iframe>
     </div>
   );
 }

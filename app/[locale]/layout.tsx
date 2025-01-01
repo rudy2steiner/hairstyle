@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://www.photomaker.co'),
   title: {
     default: 'PhotoMaker - AI Photo Maker',
-    template: '%s | PhotoMaker'
+    template: '%s'
   },
   description: 'Customize your photo with AI PhotoMaker. Create stunning portraits and artistic photo.',
   openGraph: {

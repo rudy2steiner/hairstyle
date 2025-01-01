@@ -1,184 +1,167 @@
 {
   "common": {
-    "title": "Photo Maker",
-    "description": "Customize your photo with Photo Maker",
-    "upload": "Upload Photos",
+    "title": "AI Hairstyle",
+    "description": "Transform your look with AI hairstyle. Try haircuts and colors for free",
+    "upload": "Upload Photo",
     "uploadUrl": "Upload from URL",
     "add": "Add",
     "generate": "Generate",
-    "options": "Options",
-    "examples": "Examples",
-    "generated": "Generated Images",
-    "useExample": "Use This Example",
-    "loading": "Loading...",
+    "options": "Hairstyle Options",
+    "examples": "Hairstyle Examples",
+    "generated": "Your New Hairstyles",
+    "useExample": "Try This Style",
+    "loading": "Styling your hair...",
     "error": "Error",
-    "success": "Success",
-    "exampleLoaded": "Example settings loaded successfully",
-    "exampleError": "Failed to load example",
+    "success": "Looking great!",
+    "exampleLoaded": "Hairstyle preset loaded",
+    "exampleError": "Failed to load hairstyle",
     "table": {
-      "photos": "Photos",
-      "prompt": "Prompt",
-      "style": "Style",
-      "negativePrompt": "Negative Prompt",
+      "photos": "Your Photos",
+      "style": "Hairstyle",
+      "length": "Hair Length",
+      "color": "Hair Color",
       "actions": "Actions"
     }
   },
   "nav": {
     "home": "Home",
-    "gallery": "Gallery",
+    "gallery": "Style Gallery",
     "blog": "Blog"
   },
   "form": {
-    "prompt": "Prompt",
-    "negativePrompt": "Negative Prompt",
-    "aspectRatio": "Aspect Ratio",
-    "style": "Style",
-    "numSteps": "Number of Steps",
-    "styleStrength": "Style Strength",
-    "numOutputs": "Number of Outputs",
-    "guidanceScale": "Guidance Scale",
-    "seed": "Seed",
-    "useDoodle": "Use Doodle",
-    "adapterScale": "Adapter Scale",
-    "adapterFactor": "Adapter Factor"
+    "hairLength": "Hair Length",
+    "hairStyle": "Hairstyle Type",
+    "hairColor": "Hair Color",
+    "faceShape": "Face Shape",
+    "gender": "Gender",
+    "numOutputs": "Style Variations",
+    "preset": "Popular Haircuts",
+    "customStyle": "Custom Style"
   },
   "hero": {
-    "tagline": "AI-Powered Photo Maker",
-    "title": "Customize Your Photo with PhotoMaker",
-    "description": "Upload your photo and PhotoMaker will turns it into new styles. PhotoMaker utilizes advanced transformer-based models and the latest AI research of PhotoMaker V2. Perfect for portraits, professional shots, and creative transformation."
+    "tagline": "Virtual Hairstyle Try-On",
+    "title": "AI Hairstyle: Try Before You Cut",
+    "description": "Experience different hairstyles virtually with our AI hairstyle simulator. Perfect for trying new looks, exploring haircuts, and visualizing changes before your salon visit."
   },
   "benefits": {
-    "title": "Why User Choose PhotoMaker",
+    "title": "Why Choose Our AI Hairstyle",
     "items": {
       "quality": {
-        "title": "Professional Quality",
-        "description": "Get studio quality photo from daily photos"
+        "title": "Endless Styles",
+        "description": "Try short, long, curly, straight, and colored hairstyles"
       },
       "styles": {
-        "title": "Multiple Styles",
-        "description": "Choose from various artistic styles and transformations"
+        "title": "Realistic Results",
+        "description": "True-to-life virtual haircuts and styling"
       },
       "speed": {
-        "title": "Fast Processing",
-        "description": "Generate new photo in seconds with PhotoMaker"
+        "title": "Instant Preview",
+        "description": "See new hairstyles in seconds with AI technology"
       },
       "batch": {
-        "title": "Batch Processing",
-        "description": "Customize multiple photos at once to save time"
+        "title": "Free to Try",
+        "description": "Transform your look with our free virtual hairstyle tool"
       }
     }
   },
   "features": {
-    "title": "Advanced Features",
+    "title": "AI Hairstyle Features",
     "items": {
       "styleTransfer": {
-        "title": "ID fidelity & Custom Prompts",
-        "description": "Ensures impressive ID fidelity, offering diversity, promising text controllability, and high quality photo"
+        "title": "Virtual Hair Try-On",
+        "description": "Preview haircuts and colors before making changes"
       },
       "customPrompts": {
-        "title": "Stylization Photo",
-        "description": "Support plenty styles,such as Photographic, Cinematic, Disney Character, Neonpunk"
+        "title": "AI Hair Generator",
+        "description": "Advanced AI technology for realistic hairstyle visualization"
       },
       "batchProcessing": {
-        "title": "Batch Processing",
-        "description": "Customize up to 4 photo simultaneously"
+        "title": "Multiple Styles",
+        "description": "Try different lengths, cuts, and colors instantly"
       },
       "highResolution": {
-        "title": "High Resolution",
-        "description": "Generate high quality photo suitable for printing,instagram,twitter,facebook "
+        "title": "Salon Reference",
+        "description": "Show your stylist exactly what you want"
       }
     }
   },
   "howItWorks": {
-    "title": "How It Works",
+    "title": "How to Change Hairstyle Online",
     "steps": {
       "upload": {
         "number": "01",
-        "title": "Upload Photo",
-        "description": "Upload Photos of someone you want to customize"
+        "title": "Upload Your Photo",
+        "description": "Take or upload a clear front-facing photo"
       },
       "style": {
         "number": "02",
-        "title": "Prompts & Style",
-        "description": "Enter a text prompt,choose preferred style: Photographic, Cinematic, Disney Character"
+        "title": "Choose Hairstyle",
+        "description": "Browse styles or customize your own look"
       },
       "generate": {
         "number": "03",
-        "title": "Generate",
-        "description": "Click the Generate button to start customizing"
+        "title": "Generate Preview",
+        "description": "See your new hairstyle instantly"
       },
       "download": {
         "number": "04",
-        "title": "Download",
-        "description": "Save your generated photo"
+        "title": "Save & Share",
+        "description": "Download or share your new look"
       }
     }
   },
   "testimonials": {
-    "title": "What Users Say About PhotoMaker",
-    "subtitle": "See what leading photographers and creative professionals are saying about PhotoMaker",
+    "title": "What Users Say About Our AI Hairstyle",
     "items": [
       {
-        "name": "Emily Chen",
-        "role": "Lead Photographer",
-        "company": "Studio Visuals",
-        "quote": "PhotoMaker has revolutionized our studio workflow. The AI-powered transformations are incredibly natural and save us hours of post-processing time.",
-        "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80"
+        "name": "Sarah Miller",
+        "role": "Hair Stylist",
+        "quote": "Perfect for showing clients different haircut options before making the cut.",
+        "image": "/testimonials/sarah.jpg"
       },
       {
-        "name": "Michael Rodriguez",
-        "role": "Creative Director",
-        "company": "Artisan Media",
-        "quote": "PhotoMaker ensure the versatility of styles and the precision of the results are outstanding. We've integrated PhotoMaker into our production pipeline.",
-        "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&h=150&q=80"
+        "name": "James Chen",
+        "role": "Salon Owner",
+        "quote": "This virtual hairstyle tool has increased our client satisfaction significantly.",
+        "image": "/testimonials/james.jpg"
       },
       {
-        "name": "Sarah Thompson",
-        "role": "Portrait Specialist",
-        "company": "Elite Portraits",
-        "quote": "The attention to detail in preserving facial features while applying creative transformations is remarkable. PhotoMaker is an essential tool for photo maker.",
-        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&h=150&q=80"
+        "name": "Lisa Thompson",
+        "role": "Customer",
+        "quote": "Tried different hairstyles virtually before my big change. So helpful!",
+        "image": "/testimonials/lisa.jpg"
       }
     ]
   },
   "faq": {
-    "title": "FAQs Of PhotoMaker",
+    "title": "Virtual Hairstyle FAQs",
     "items": [
       {
-        "question": "How about PhotoMaker V2?",
-        "answer": "PhotoMaker V2 Improved ID Fidelity and Better Controllability than PhotoMaker V1"
+        "question": "How does the AI hairstyle work?",
+        "answer": "Our AI analyzes your facial features and applies virtual hairstyles realistically using advanced image processing."
       },
       {
-        "question": "How to use PhotoMaker V2?",
-        "answer": "How to use PhotoMaker V2 can be found in https://github.com/TencentARC/PhotoMaker"
+        "question": "Can I try different hair lengths?",
+        "answer": "Yes, experiment with short, medium, and long hairstyles using our virtual try-on tool."
       },
       {
-        "question": "How many photos can I customize at once?",
-        "answer": "You can upload and customize up to 4 photos simultaneously in a single batch."
+        "question": "Is the hairstyle simulator free?",
+        "answer": "Yes, our basic virtual hairstyle features are completely free to use."
       },
       {
-        "question": "What file formats are supported?",
-        "answer": "We support common image formats including JPG, PNG, and WebP."
+        "question": "What hairstyle suits my face shape?",
+        "answer": "Our AI analyzes your face shape and suggests complementary hairstyles for your features."
       },
       {
-        "question": "How long does the generation process take?",
-        "answer": "Most customize complete within 10-30 seconds, depending on the complexity."
-      },
-      {
-        "question": "Can I use custom prompts?",
-        "answer": "Yes, you can provide custom text prompts to guide PhotoMaker customize process."
-      },
-
-      {
-        "question": "The Technology Behind PhotoMaker?",
-        "answer": "PhotoMaker utilizes advanced transformer-based models and the latest AI research of PhotoMaker V2"
+        "question": "Can I try men's hairstyles?",
+        "answer": "Yes, we offer virtual haircuts for all genders, including specific men's styles."
       }
     ]
   },
   "cta": {
-    "title": "Ready to Customize Photos with PhotoMaker?",
-    "description": "Start creating stunning AI generated photos today",
-    "button": "Try PhotoMaker Now"
+    "title": "Ready to Try New Hairstyles?",
+    "description": "Transform your look with our AI hairstyle generator",
+    "button": "Try Virtual Hairstyles Now"
   },
   "footer": {
     "product": "Product",
@@ -187,13 +170,12 @@
     "pricing": "Pricing",
     "support": "Support",
     "helpCenter": "Help Center",
-    "contact": "Contact Us",
+    "contact": "Contact",
     "community": "Community",
     "legal": "Legal",
     "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
+    "terms": "Terms of Use",
     "cookies": "Cookie Policy",
-    "languages": "Languages",
     "rights": "All rights reserved."
   }
 }

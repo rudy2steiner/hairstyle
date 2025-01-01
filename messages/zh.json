@@ -1,171 +1,167 @@
 {
   "common": {
-    "title": "照片生成器",
-    "description": "使用AI的力量转换您的照片",
+    "title": "AI换发型",
+    "description": "免费AI换发型工具：在线预览发型效果，尝试不同发色和发型",
     "upload": "上传照片",
-    "uploadUrl": "从URL上传",
+    "uploadUrl": "从网址上传",
     "add": "添加",
     "generate": "生成",
-    "options": "选项",
-    "examples": "示例",
-    "generated": "生成的图片",
-    "useExample": "使用此示例",
-    "loading": "生成中...",
+    "options": "发型选项",
+    "examples": "发型示例",
+    "generated": "您的新发型",
+    "useExample": "试试这个发型",
+    "loading": "正在设计发型...",
     "error": "错误",
-    "success": "成功",
-    "exampleLoaded": "示例设置已加载成功",
-    "exampleError": "加载示例失败",
+    "success": "看起来很棒！",
+    "exampleLoaded": "已加载发型预设",
+    "exampleError": "加载发型失败",
     "table": {
-      "photos": "照片",
-      "prompt": "提示词",
-      "style": "风格",
-      "negativePrompt": "负面提示词",
+      "photos": "您的照片",
+      "style": "发型",
+      "length": "发长",
+      "color": "发色",
       "actions": "操作"
     }
   },
   "nav": {
     "home": "首页",
-    "gallery": "画廊",
-    "blog": "博客"
+    "gallery": "发型图库",
+    "blog": "美发博客"
   },
   "form": {
-    "prompt": "提示词",
-    "negativePrompt": "负面提示词",
-    "aspectRatio": "宽高比",
-    "style": "风格",
-    "numSteps": "步数",
-    "styleStrength": "风格强度",
-    "numOutputs": "输出数量",
-    "guidanceScale": "引导比例",
-    "seed": "随机种子",
-    "useDoodle": "使用涂鸦",
-    "adapterScale": "适配器比例",
-    "adapterFactor": "适配器因子"
+    "hairLength": "发长",
+    "hairStyle": "发型类型",
+    "hairColor": "发色",
+    "faceShape": "脸型",
+    "gender": "性别",
+    "numOutputs": "风格变化",
+    "preset": "热门发型",
+    "customStyle": "自定义风格"
   },
   "hero": {
-    "tagline": "AI驱动的照片生成",
-    "title": "用AI魔法转换您的照片",
-    "description": "上传您的照片，让我们的AI将其转换成令人惊叹的新风格。适用于人像、专业照片和创意转换。"
+    "tagline": "虚拟换发型体验",
+    "title": "AI换发型：剪发前先试造型",
+    "description": "使用AI发型模拟器虚拟体验不同发型。完美预览新造型，探索发型，在理发前可视化改变效果。"
   },
   "benefits": {
-    "title": "为什么选择照片生成器",
+    "title": "为什么选择我们的AI换发型工具",
     "items": {
       "quality": {
-        "title": "专业品质",
-        "description": "从日常照片获得专业级效果"
+        "title": "丰富发型",
+        "description": "尝试短发、长发、卷发、直发和染发"
       },
       "styles": {
-        "title": "多种风格",
-        "description": "选择各种艺术风格和转换效果"
+        "title": "真实效果",
+        "description": "真实还原虚拟发型和造型"
       },
       "speed": {
-        "title": "快速处理",
-        "description": "使用优化的AI在几秒钟内生成新照片"
+        "title": "即时预览",
+        "description": "AI技术秒级生成新发型"
       },
       "batch": {
-        "title": "批量处理",
-        "description": "同时转换多张照片以节省时间"
+        "title": "免费使用",
+        "description": "使用我们的免费虚拟换发工具改变造型"
       }
     }
   },
   "features": {
-    "title": "高级功能",
+    "title": "AI换发型功能",
     "items": {
       "styleTransfer": {
-        "title": "风格转换",
-        "description": "应用各种艺术风格的同时保持面部特征"
+        "title": "虚拟试发",
+        "description": "改变前预览发型和发色"
       },
       "customPrompts": {
-        "title": "自定义提示词",
-        "description": "通过详细的文本提示词微调您的结果"
+        "title": "AI发型生成",
+        "description": "先进AI技术实现真实发型可视化"
       },
       "batchProcessing": {
-        "title": "批量处理",
-        "description": "同时转换最多4张照片"
+        "title": "多种发型",
+        "description": "即时尝试不同长度、剪法和发色"
       },
       "highResolution": {
-        "title": "高分辨率",
-        "description": "生成适合打印的高质量图像"
+        "title": "发型参考",
+        "description": "向发型师准确展示您想要的效果"
       }
     }
   },
   "howItWorks": {
-    "title": "使用方法",
+    "title": "如何在线换发型",
     "steps": {
       "upload": {
         "number": "01",
         "title": "上传照片",
-        "description": "上传最多4张您想要转换的照片"
+        "description": "拍摄或上传正面清晰照片"
       },
       "style": {
         "number": "02",
-        "title": "选择风格",
-        "description": "从各种风格中选择或创建自定义提示词"
+        "title": "选择发型",
+        "description": "浏览发型或自定义造型"
       },
       "generate": {
         "number": "03",
-        "title": "生成",
-        "description": "让我们的AI发挥魔力"
+        "title": "生成预览",
+        "description": "立即查看新发型效果"
       },
       "download": {
         "number": "04",
-        "title": "下载",
-        "description": "保存您转换后的照片"
+        "title": "保存分享",
+        "description": "下载或分享您的新造型"
       }
     }
   },
   "testimonials": {
-    "title": "行业专业人士的信赖之选",
-    "subtitle": "了解领先摄影师和创意专业人士对PhotoMaker的评价",
+    "title": "用户对我们AI换发型工具的评价",
     "items": [
       {
-        "name": "陈艾米",
-        "role": "首席摄影师",
-        "company": "视觉工作室",
-        "quote": "PhotoMaker彻底改变了我们的工作室工作流程。AI驱动的转换效果非常自然，为我们节省了大量后期处理时间。",
-        "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80"
+        "name": "Sarah Miller",
+        "role": "发型师",
+        "quote": "完美展示客户不同发型选择，剪发前先确认效果。",
+        "image": "/testimonials/sarah.jpg"
       },
       {
-        "name": "罗德里格斯",
-        "role": "创意总监",
-        "company": "匠人传媒",
-        "quote": "风格的多样性和效果的精确度都非常出色。我们已将PhotoMaker整合到商业和编辑项目的制作流程中。",
-        "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&h=150&q=80"
+        "name": "James Chen",
+        "role": "沙龙店主",
+        "quote": "这款虚拟换发工具显著提高了客户满意度。",
+        "image": "/testimonials/james.jpg"
       },
       {
-        "name": "汤普森",
-        "role": "人像专家",
-        "company": "精英人像",
-        "quote": "在应用创意转换的同时保持面部特征的注意力令人印象深刻。它已成为我们高端人像摄影的必备工具。",
-        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&h=150&q=80"
+        "name": "Lisa Thompson",
+        "role": "顾客",
+        "quote": "重大改变前先虚拟尝试不同发型，非常有帮助！",
+        "image": "/testimonials/lisa.jpg"
       }
     ]
   },
   "faq": {
-    "title": "常见问题",
+    "title": "虚拟换发常见问题",
     "items": [
       {
-        "question": "一次可以转换多少张照片？",
-        "answer": "您可以在一批中同时上传和转换最多4张照片。"
+        "question": "AI换发型工具如何工作？",
+        "answer": "我们的AI通过高级图像处理技术分析面部特征，真实呈现虚拟发型效果。"
       },
       {
-        "question": "支持哪些文件格式？",
-        "answer": "我们支持常见的图像格式，包括JPG、PNG和WebP。"
+        "question": "可以尝试不同发长吗？",
+        "answer": "是的，使用我们的虚拟试发工具可以体验短发、中发和长发效果。"
       },
       {
-        "question": "生成过程需要多长时间？",
-        "answer": "根据复杂程度，大多数转换在10-30秒内完成。"
+        "question": "发型模拟器是免费的吗？",
+        "answer": "是的，我们的基础虚拟换发功能完全免费使用。"
       },
       {
-        "question": "我可以使用自定义提示词吗？",
-        "answer": "是的，您可以提供自定义文本提示词来引导AI转换过程。"
+        "question": "什么发型适合我的脸型？",
+        "answer": "我们的AI会分析您的脸型，推荐适合您面部特征的发型。"
+      },
+      {
+        "question": "可以尝试男士发型吗？",
+        "answer": "是的，我们提供适合所有性别的虚拟发型，包括专门的男士发型。"
       }
     ]
   },
   "cta": {
-    "title": "准备好转换您的照片了吗？",
-    "description": "立即开始创建令人惊叹的AI生成照片",
-    "button": "立即试用照片生成器"
+    "title": "准备尝试新发型了吗？",
+    "description": "使用我们的AI换发工具改变造型",
+    "button": "立即体验虚拟换发"
   },
   "footer": {
     "product": "产品",
@@ -178,9 +174,8 @@
     "community": "社区",
     "legal": "法律",
     "privacy": "隐私政策",
-    "terms": "服务条款",
+    "terms": "使用条款",
     "cookies": "Cookie政策",
-    "languages": "语言",
-    "rights": "保留所有权利。"
+    "rights": "版权所有"
   }
 }

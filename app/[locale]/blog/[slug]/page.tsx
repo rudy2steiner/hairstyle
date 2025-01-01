@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   try {
     const post = await getBlogPost(params.slug, params.locale);
     return {
-      title: `${post.title} | PhotoMaker Blog`,
+      title: `${post.title} | AI hairstyle`,
       description: post.description,
       openGraph: {
         title: post.title,
@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   } catch {
     return {
-      title: 'Blog Post | PhotoMaker',
+      title: 'Blog Post',
     };
   }
 }
