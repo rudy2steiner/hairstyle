@@ -36,7 +36,7 @@ export default function HelpPage({ params: { locale } }: Props) {
         <h2>Contact Support</h2>
         <p>
           Need more help? Our support team is available 24/7 to assist you.
-          Contact us through our support portal or email support@photomaker.co
+          Contact us through our support portal or email support@aihairstyle.co
         </p>
       </section>
     </main>

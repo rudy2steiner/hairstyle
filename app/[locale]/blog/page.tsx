@@ -9,7 +9,7 @@ export const revalidate = 3600; // Revalidate every hour
 
 export const metadata: Metadata = {
   title: 'Blog',
-  description: 'Latest updates, tutorials, and news about PhotoMaker AI',
+  description: 'Latest updates, tutorials, and news about Ai Hairstyle',
 };
 
 interface Props {

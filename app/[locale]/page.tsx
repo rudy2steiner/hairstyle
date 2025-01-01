@@ -14,7 +14,6 @@ export const metadata: Metadata = {
   title: 'AI Hairstyle: Change Your Hairstyle in seconds | Free Online',
   description: 'Transform your look with our AI hairstyle generator. Try unlimited virtual haircuts and colors instantly. See realistic previews before your salon visit. Start styling free today!',
   keywords: [
-  'photomaker v2',' photomaker style',' photomaker',' photomakers',' photo maker v2',' photo maker customizing realistic',' photomaker2',' photomaker customizing realistic human photos','stacked id embedding',' photo maker',' image generator'
   ],
 }
 export default function HomePage() {
