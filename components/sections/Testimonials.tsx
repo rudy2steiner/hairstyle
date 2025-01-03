@@ -11,6 +11,7 @@ export function Testimonials() {
     name: string;
     role: string;
     quote: string;
+    image: string;
   }>;
 
   return (
@@ -21,8 +22,8 @@ export function Testimonials() {
           {testimonials.map((testimonial, index) => (
             <Card key={index} className="p-6">
               <div className="flex items-start space-x-4">
-                <Avatar className="h-12 w-12">
-                  <AvatarImage src={`https://i.pravatar.cc/48?u=${index}`} alt={testimonial.name} />
+                <Avatar className="h-45px w-45px">
+                  <AvatarImage src={testimonial.image} alt={testimonial.name} />
                   <AvatarFallback>{testimonial.name[0]}</AvatarFallback>
                 </Avatar>
                 <div>

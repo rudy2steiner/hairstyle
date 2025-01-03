@@ -114,22 +114,22 @@
     "title": "What Users Say About Our AI Hairstyle",
     "items": [
       {
-        "name": "Sarah Miller",
+        "name": "Sarah Johnson",
         "role": "Hair Stylist",
         "quote": "Perfect for showing clients different haircut options before making the cut.",
-        "image": "/testimonials/sarah.jpg"
+        "image": "/testimonials/bc.jpeg"
       },
       {
         "name": "James Chen",
         "role": "Salon Owner",
         "quote": "This virtual hairstyle tool has increased our client satisfaction significantly.",
-        "image": "/testimonials/james.jpg"
+        "image": "/testimonials/t5.jpeg"
       },
       {
         "name": "Lisa Thompson",
         "role": "Customer",
         "quote": "Tried different hairstyles virtually before my big change. So helpful!",
-        "image": "/testimonials/lisa.jpg"
+        "image": "/testimonials/t3.jpeg"
       }
     ]
   },

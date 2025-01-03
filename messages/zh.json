@@ -114,22 +114,22 @@
     "title": "用户对我们AI换发型工具的评价",
     "items": [
       {
-        "name": "Sarah Miller",
+        "name": "Sarah Johnson",
         "role": "发型师",
         "quote": "完美展示客户不同发型选择，剪发前先确认效果。",
-        "image": "/testimonials/sarah.jpg"
+        "image": "/testimonials/bc.jpeg"
       },
       {
         "name": "James Chen",
         "role": "沙龙店主",
         "quote": "这款虚拟换发工具显著提高了客户满意度。",
-        "image": "/testimonials/james.jpg"
+        "image": "/testimonials/t5.jpeg"
       },
       {
         "name": "Lisa Thompson",
         "role": "顾客",
         "quote": "重大改变前先虚拟尝试不同发型，非常有帮助！",
-        "image": "/testimonials/lisa.jpg"
+        "image": "/testimonials/t3.jpeg"
       }
     ]
   },

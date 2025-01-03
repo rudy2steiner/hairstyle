@@ -60,8 +60,8 @@ export function PhotoMaker() {
     <div id="photo-maker" >
         <iframe
                src="https://airi-institute-hairfastgan.hf.space"
-               frameborder="0"
-               class="w-[400px] lg:w-[1200px] h-[1400px]"
+               frameBorder="0"
+               className="w-[400px] lg:w-[1200px] h-[1400px]"
          ></iframe>
     </div>
   );
