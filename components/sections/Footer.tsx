@@ -32,15 +32,15 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <Button variant="link" className="h-auto p-0" asChild>
-                  <Link href="/gallery" className="text-sm text-muted-foreground hover:text-primary">
+                  <Link href="/" className="text-sm text-muted-foreground hover:text-primary">
                     {t('footer.features')}
                   </Link>
                 </Button>
               </li>
               <li>
                 <Button variant="link" className="h-auto p-0" asChild>
-                  <Link href="/gallery" className="text-sm text-muted-foreground hover:text-primary">
-                    {t('footer.examples')}
+                  <Link href="/blog" className="text-sm text-muted-foreground hover:text-primary">
+                    {t('footer.blog')}
                   </Link>
                 </Button>
               </li>
