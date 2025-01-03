@@ -57,12 +57,11 @@ export function PhotoMaker() {
   };
 
   return (
-    <div id="photo-maker" className="mx-auto" >
+    <div id="photo-maker" >
         <iframe
                src="https://airi-institute-hairfastgan.hf.space"
                frameborder="0"
-               width="1024"
-               height="1400"
+               class="w-[400px] lg:w-[1200px] h-[1400px]"
          ></iframe>
     </div>
   );
