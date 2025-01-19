@@ -14,7 +14,7 @@ export function Footer() {
   return (
     <footer className="border-t bg-muted/30">
       <div className="container mx-auto px-4 py-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8">
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center space-x-2 mb-4">
@@ -25,7 +25,27 @@ export function Footer() {
               {t('common.description')}
             </p>
           </div>
-          
+          {/* Community */}
+              <div>
+                <h3 className="font-semibold mb-4">{t('footer.community')}</h3>
+                <ul className="space-y-2">
+                  <li>
+                    <Button variant="link" className="h-auto p-0" asChild>
+                      <Link href="https://www.photomaker.co" target="_blank" className="text-sm text-muted-foreground hover:text-primary">
+                       Photo Maker
+                      </Link>
+                    </Button>
+                  </li>
+                  <li>
+                    <Button variant="link" className="h-auto p-0" asChild>
+                      <Link href="https://www.tiktokalternatives.app" target="_blank" className="text-sm text-muted-foreground hover:text-primary">
+                        Tiktok Alternatives
+                      </Link>
+                    </Button>
+                  </li>
+
+                </ul>
+              </div>
           {/* Product */}
           <div>
             <h3 className="font-semibold mb-4">{t('footer.product')}</h3>
@@ -53,7 +73,7 @@ export function Footer() {
               </li>
             </ul>
           </div>
-          
+
           {/* Support */}
           <div>
             <h3 className="font-semibold mb-4">{t('footer.support')}</h3>
